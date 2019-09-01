@@ -5,9 +5,7 @@
   "main": "dist/src/index.js",
   "scripts": {
     "start": "qode dist/index.js",
-    "build:typescript": "tsc",
     "build": "parcel build --target node src/index.tsx --out-dir dist",
-    "watch:typescript": "tsc -w",
     "watch": "parcel watch --target node src/index.tsx --out-dir dist",
     "lint": "tslint --project tsconfig.json",
     "posttest": "npm run lint"
